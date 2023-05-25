@@ -43,9 +43,9 @@ Overall, dynamic programming provides a solid foundation for solving reinforceme
 
 ## Q-Learning
 
-<img src="/images/2023-05-25- Reinforcement Learning/Pasted Graphic 1.png" alt="Pasted Graphic 1" style="zoom: 33%;" />
+<p align='center'><img src="/images/2023-05-25- Reinforcement Learning/Pasted Graphic 1.png" alt="Pasted Graphic 1" style="zoom: 33%;" /></p>
 
-<img src="/images/2023-05-25- Reinforcement Learning/Pasted Graphic 2.png" alt="Pasted Graphic 2" style="zoom: 34.5%;" />
+<p align='center'><img src="/images/2023-05-25- Reinforcement Learning/Pasted Graphic 2.png" alt="Pasted Graphic 2" style="zoom: 34.5%;" /></p>
 
 Q-learning is a popular and fundamental algorithm in reinforcement learning used to find the optimal policy for an agent in an environment. It falls under the category of model-free learning, meaning it doesn't require prior knowledge about the environment's dynamics.
 
