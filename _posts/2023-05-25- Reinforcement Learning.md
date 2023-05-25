@@ -75,7 +75,19 @@ As the agent continues to interact with the environment and update its Q-values,
 
 Q-learning is a powerful and versatile algorithm that has been successfully applied to various problems, including robotics, game-playing agents, and autonomous systems.
 
+However, the Q-table tends to require a large amount of storage capacity, making it impractical for many applications. To address this issue, neural networks (NN) are commonly employed to approach reinforcement learning using the same underlying principles. One prominent approach is Deep Q-Networks (DQN), which leverages neural networks to approximate Q-values and overcome the limitations of the Q-table.
 
+
+
+## Deep Q-Networks (DQN)
+
+DQN is a reinforcement learning algorithm that combines deep neural networks with the Q-learning algorithm. Instead of storing Q-values in a table, DQN utilizes a neural network to estimate the Q-values for different state-action pairs. The neural network takes the state as input and outputs a Q-value for each possible action.
+
+DQN introduces two main techniques to improve training stability and sample efficiency: experience replay and a target network. Experience replay involves storing agent experiences (consisting of state, action, reward, and next state) in a memory buffer. During training, a batch of experiences is randomly sampled from the buffer to break the temporal correlations between consecutive experiences. This helps to alleviate the issues caused by the sequential nature of the data and leads to more efficient learning.
+
+The target network is a separate neural network that is periodically updated with the weights of the main network. The main network, also known as the online network, is used to select actions during training. By periodically updating the target network, which is used to compute the target Q-values, DQN stabilizes the learning process. This is because it reduces the potential for feedback loops and prevents the network from chasing a moving target.
+
+Through these techniques, DQN can effectively learn and approximate the Q-values for large and complex state-action spaces. It can handle high-dimensional inputs, making it suitable for tasks such as image-based or continuous control problems. However, training DQN can still be computationally intensive and may require substantial computational resources and time.
 
 ---
 
