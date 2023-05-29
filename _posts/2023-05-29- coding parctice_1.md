@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Coding Practice 1"
-categories: coding
+categories: Coding
 
 
 author_profile: false
