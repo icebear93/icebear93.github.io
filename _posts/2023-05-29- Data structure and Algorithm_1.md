@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Simple explanation of Reinforcement Learning"
-categories: ML/DL
+title:  "Data structure and algorithm 1"
+categories: Data_structure/Algorithm
 
 
 author_profile: false
