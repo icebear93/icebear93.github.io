@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Simple explanation of Reinforcement Learning"
-categories: ML/DL
+title:  "Coding Practice 1"
+categories: coding
 
 
 author_profile: false
