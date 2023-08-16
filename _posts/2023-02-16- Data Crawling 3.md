@@ -6,6 +6,7 @@ categories: Data Crawling
 
 author_profile: false
 typora-root-url: ../
+
 ---
 
 # Data on the map; folium
@@ -63,7 +64,9 @@ sb_bubble
 
 ```
 
-![SCR-20230816-ukhc](/Users/jsp/Desktop/workspace/github_blog/images/2023-02-16- Data Crawling 3/SCR-20230816-ukhc.png)
+![SCR-20230816-ukhc](/images/2023-02-16- Data Crawling 3/SCR-20230816-ukhc-2200441.png)
+
+
 
 ### folium.Choropleth
 
@@ -90,7 +93,7 @@ folium.Choropleth(
 ).add_to(sb_choro) # add this option to map (in this case the map name is 'sb_choro')
 ```
 
-![SCR-20230816-ukiq](/Users/jsp/Library/Application Support/typora-user-images/SCR-20230816-ukiq.png)
+![SCR-20230816-ukiq](/images/2023-02-16- Data Crawling 3/SCR-20230816-ukiq.png)
 
 
 
@@ -105,10 +108,10 @@ folium.CircleMarker(
     fill = True,
     fill_color = 'green',
     fill_opacity = 0.9,
-    weight = 0.1, # thickness of the line
+    weight = 0.1, # 테두리 선의 두께
     radius = 5
 
-).add_to(sb_map) # add marker on the map
+).add_to(sb_map) #형성한 마커를 지도위에 추가
 ```
 
 #### Advanced folium.circleMarker
@@ -136,7 +139,7 @@ for idx in seoul_sgg_stat.index:
 viz_map_1
 ```
 
-![SCR-20230816-uiwn](/Users/jsp/Desktop/workspace/github_blog/images/2023-02-16- Data Crawling 3/SCR-20230816-uiwn.jpeg)
+![SCR-20230816-uiwn](/images/2023-02-16- Data Crawling 3/SCR-20230816-uiwn-2200563.jpeg)
 
 ---
 
