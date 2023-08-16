@@ -6,7 +6,6 @@ categories: Data Crawling
 
 author_profile: false
 typora-root-url: ../
-
 ---
 
 # Data on the map; folium
@@ -106,10 +105,10 @@ folium.CircleMarker(
     fill = True,
     fill_color = 'green',
     fill_opacity = 0.9,
-    weight = 0.1, # 테두리 선의 두께
+    weight = 0.1, # thickness of the line
     radius = 5
 
-).add_to(sb_map) #형성한 마커를 지도위에 추가
+).add_to(sb_map) # add marker on the map
 ```
 
 #### Advanced folium.circleMarker
