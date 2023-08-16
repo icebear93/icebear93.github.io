@@ -1,9 +1,13 @@
+---
 layout: single
-title:  "Data Crawling 3; how to label data on the map by using selenium and folium"
+title:  "Data Crawling 3; how to label data on the map by using folium"
 categories: Data Crawling
+
 
 author_profile: false
 typora-root-url: ../
+
+---
 
 # Data on the map; folium
 
@@ -61,8 +65,6 @@ sb_bubble
 ```
 
 ![SCR-20230816-ukhc](/Users/jsp/Desktop/workspace/github_blog/images/2023-02-16- Data Crawling 3/SCR-20230816-ukhc.png)
-
-
 
 ### folium.Choropleth
 
