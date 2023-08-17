@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Data Crawling 1"
-categories: Data Crawling
+categories: Crawling
 
 
 author_profile: false

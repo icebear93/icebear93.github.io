@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "hate speech detection AI"
-categories: Team Project
+categories: Project
 
 
 author_profile: false

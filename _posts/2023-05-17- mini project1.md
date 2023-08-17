@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "mini project 1"
-categories: Mini Project
+categories: Project
 
 
 author_profile: false
