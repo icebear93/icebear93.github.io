@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Data Crawling 2; how to navigate instagram using selenium"
-categories: Data Crawling
+categories: Crawling
 
 
 author_profile: false

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Daicon wallpaper defect detection AI"
-categories: Team Project
+categories: Project
 
 
 author_profile: false
