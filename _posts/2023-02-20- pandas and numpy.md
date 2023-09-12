@@ -16,11 +16,47 @@ both numpy and pandas libraries are super important tools for data analysis
 
 ### pandas basics
 
-여기서 부터 작성!!!!!!!! da day1
+- Series: A series stores data of the same type in a one-dimensional structure.
+- DataFrame: A DataFrame stores data of various types in a two-dimensional structure; each column is a Series.
+- Matrix: A matrix stores data of the same type in a two-dimensional structure.
+
+In the code snippet `f = pd.Series([1, -2, 0, 5, np.nan])`, `f.isna()` is used to check if the values inside `f` are NaN (Not a Number).
+
+![img](https://blog.kakaocdn.net/dn/bB57eI/btr6g8Fjk9E/DK3DdcXzIjC0iv5g74ujM1/img.png)
+
+- `f[f.isna()]`: This expression retrieves values from `f` where `f.isna()` is `True`. In other words, it performs boolean indexing, extracting data based on a condition, which is commonly used.
+
+- Boolean Indexing: It involves selecting data from a variable using a condition, i.e., `variable[condition]`. It extracts data where the condition is true.
+
+- `s.dropna()`: This function removes NaN (missing) values from `s`. NaN, nan, and None are all considered missing values. Remember that the result should be assigned to a variable to store the changes.
+
+- `s[s.notna()]`: This expression selects values in `s` that are not NaN (i.e., not missing).
+
+DataFrame:
+
+![img](https://blog.kakaocdn.net/dn/cEEkHH/btr5YUnKnEZ/CVkbTSTAK1U7lBRsil8Z0k/img.png)
+
+- `data.dropna()`: Removes rows containing NaN values from the DataFrame.
+- `data.dropna(how='all')`: Removes rows only if all values in the row are NaN.
+- `data[4] = np.nan`: Adds NaN values to the 4th column of the DataFrame.
+
+![img](https://blog.kakaocdn.net/dn/v8Fgw/btr6oJq9Xfu/hkEFuoCvjfVVGkfipcdH00/img.png)
+
+`data.dropna(axis='columns', how='all')`: This code removes columns where all values are NaN when considering the column axis (axis='columns').
+
+![img](https://blog.kakaocdn.net/dn/whicS/btr59ZWtAUv/PckkPCvBKDZFhclkG5KI70/img.png)
+
+
+
+`pd.DataFrame(np.random.standard_normal((7, 3)))`: This line generates data following a standard normal distribution with 7 rows and 3 columns and stores it in a DataFrame.
+
+![img](https://blog.kakaocdn.net/dn/1i9Nk/btr6qPdg9PG/wgvxEKDWyxTVxCfQA50K0k/img.png)
+
+
 
 ### numpy basics 
 
-
+여기서 부터 이어서 작성!!!!!!!! da day1
 
 1. 
 
