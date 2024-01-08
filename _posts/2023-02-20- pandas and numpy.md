@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "pandas & numpy; tool for data analysis"
-categories: pandas&numpy
+categories: ML/DL
 
 
 author_profile: false
