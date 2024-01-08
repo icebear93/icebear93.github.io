@@ -16,6 +16,7 @@ typora-root-url: ../
 
 While studying biology, I encountered an intriguing set of code related to DNA sequencing using deep learning. Initially, the logic behind the code was challenging to grasp, but I quickly became fascinated by its potential. This marked the beginning of my journey into studying AI.
 
+
 below is the DNA sequencing code
 
 [dna.ipynb](https://icebear93.github.io/ml/DNA sequence deeplearning/dna.ipynb)
