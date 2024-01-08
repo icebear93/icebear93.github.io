@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "house price anticipation"
-categories: Kaggle
+categories: Project
 
 
 author_profile: false

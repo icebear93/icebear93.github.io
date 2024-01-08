@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Data structure and algorithm 1"
-categories: Data_structure/Algorithm
+categories: Coding
 
 
 author_profile: false

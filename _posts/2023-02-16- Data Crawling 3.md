@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Data Crawling 3; how to label data on the map by using folium"
-categories: Crawling
+categories: ML/DL
 
 
 author_profile: false

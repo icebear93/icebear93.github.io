@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "DNA sequence Deeplearning"
-categories: DNA_sequencing
+categories: ML/DL
 
 
 author_profile: false

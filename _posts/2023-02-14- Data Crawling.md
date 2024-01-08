@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Data Crawling 1"
-categories: Crawling
+categories: ML/DL
 
 
 author_profile: false
