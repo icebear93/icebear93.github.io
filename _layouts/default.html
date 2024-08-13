@@ -1,13 +1,4 @@
----
----
-
 <!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
@@ -17,6 +8,18 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
+
+    <!-- 언어 선택 메뉴 추가 -->
+    <ul class="nav-lang">
+      {% for lang in site.languages %}
+      <li id="lang" style="float: right;">
+        <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+          {{ lang }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <!-- 언어 선택 메뉴 끝 -->
 
     <div class="initial-content">
       {{ content }}
@@ -36,6 +39,5 @@
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>
