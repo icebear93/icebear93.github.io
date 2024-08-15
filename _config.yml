@@ -281,10 +281,11 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+  
   - scope:
-      path: ""
-      type: posts
-    values:
+        path: ""  # 기본 언어 (한국어) 경로
+        type: posts
+      values:
       layout: single
       author_profile: true
       read_time: true
@@ -296,8 +297,28 @@ defaults:
       toc_sticky: true
       toc_label: context
       toc_icon: "fa-solid fa-fire"
+        lang: "ko"
+        permalink: /:categories/:year/:month/:day/:title/
 
-date_format: "%Y-%m-%d"
+    - scope:
+        path: "en"  # 영어 경로
+        type: posts
+        values:
+        layout: single
+        author_profile: true
+        read_time: true
+        comments: # true
+        share: true
+        related: true
+        show_date: true
+        toc: true
+        toc_sticky: true
+        toc_label: context
+        toc_icon: "fa-solid fa-fire"
+        lang: "en"
+        permalink: /en/:categories/:year/:month/:day/:title/
+
+  date_format: "%Y-%m-%d"
 
 languages: ["en", "ko"] # 지원하고자 하는 언어
 default_lang: "ko" # 컨텐츠의 기본 언어
