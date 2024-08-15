@@ -12,8 +12,8 @@
     <!-- 언어 선택 메뉴 추가 -->
     <ul class="nav-lang">
       {% for lang in site.languages %}
-      <li id="lang" style="float: right;">
-        <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+      <li class="lang-item" style="float: right;">
+        <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url | remove_first: "/"}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
           {{ lang }}
         </a>
       </li>
@@ -39,5 +39,9 @@
     </div>
 
     {% include scripts.html %}
+
+    <script>
+      document.documentElement.classList.remove("no-js");
+    </script>
   </body>
 </html>
