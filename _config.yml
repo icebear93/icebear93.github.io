@@ -301,5 +301,6 @@ date_format: "%Y-%m-%d"
 
 languages: ["en", "ko"] # 지원하고자 하는 언어
 default_lang: "ko" # 컨텐츠의 기본 언어
+active_lang: 'en'
 exclude_from_localization: ['javascript', 'images', 'css', 'sitemap.xml'] # 루트 폴더 중 다국어 기능 제외 시킬 폴더
 parallel_localizaion: false # 별 의미 없음
