@@ -10,15 +10,18 @@
     {% include_cached masthead.html %}
 
     <!-- 언어 선택 메뉴 추가 -->
-    <ul class="nav-lang">
-      {% for lang in site.languages %}
-      <li class="lang-item" style="float: right;">
-        <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url | remove_first: "/"}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
-          {{ lang }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+ <!-- 언어 선택 메뉴 추가 -->
+<ul class="nav-lang" style="display: flex; justify-content: flex-end; list-style: none; padding: 0;">
+  {% for lang in site.languages %}
+  <li class="lang-item" style="margin-left: 10px;">
+    <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %} text-align:center; text-decoration: none;" 
+       href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url | remove_first: '/'}} 
+       {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+      {{ lang }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
     <!-- 언어 선택 메뉴 끝 -->
 
     <div class="initial-content">
