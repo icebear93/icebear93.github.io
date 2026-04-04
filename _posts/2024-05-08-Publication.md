@@ -8,6 +8,19 @@ typora-root-url: ../
 ---
 # 참여 도서 목록
 
+## PyTorch로 배우는 딥러닝과 생성형 AI : 개념부터 Vision, 생성형 모형, Foundation 모형의 구현까지
+
+<img src="/images/2024-05-08-Publication/SCR-20260403-jdhc.png" alt="SCR-20260403-jdhc" style="zoom:25%;" />
+
+- **도서 이름**: PyTorch로 배우는 딥러닝과 생성형 AI : 개념부터 Vision, 생성형 모형, Foundation 모형의 구현까지
+- **참여 기간** : 2024.10-2025.10
+- **나의 역할**: 
+  - 책 내용 전체 검수
+  - 책 내부에 활용된 코드 내용 직접 수행 및 검수
+  - AI 모델 구성도 일부 작성
+
+- **출판된 도서 자료 링크**: <a href="https://product.kyobobook.co.kr/detail/S000218420219" target="_blank">도서 자료 링크</a>
+
 ## 시계열 예측과 분석: 통계적 모형·혼합형 모형·딥러닝 모형
 
 <img src="/images/2024-05-08-Publication/SCR-20240512-cbsl.png" alt="SCR-20240512-cbsl" style="zoom:25%;" />
